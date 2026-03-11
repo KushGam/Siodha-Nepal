@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home & Living Collection | SioDha</title>
+  <meta
+    name="description"
+    content="Shop handmade home and living decor from SioDha including blankets, rugs, cushions, table decor, storage and wall art."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    Handmade in Nepal • Knit, Wool & Hemp Collections • Premium Handmade Pieces
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">SioDha</a>
+
+      <nav class="desktop-nav">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="collections.html" class="active-nav">Collections</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" aria-label="Search">⌕</button>
+        <button class="icon-btn" aria-label="Account">◯</button>
+        <button class="icon-btn" aria-label="Cart" onclick="window.location.href='cart.html'">👜</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="collections.html">Collections</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- Collection Hero -->
+  <section class="collection-hero home-hero">
+    <div class="container collection-hero-inner">
+      <p class="eyebrow">Collection 05</p>
+      <h1>Home &amp; Living</h1>
+      <p class="collection-hero-text">
+        Warm decor pieces for modern homes including blankets, rugs, cushions, table decor,
+        storage and wall art that bring texture into every room.
+      </p>
+
+      <div class="collection-meta">
+        <span>18 Products</span>
+        <span>6 Product Types</span>
+        <span>Cozy Home Atmosphere</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collection Intro -->
+  <section class="section collection-intro-section">
+    <div class="container collection-intro-grid">
+      <div>
+        <p class="eyebrow">About this collection</p>
+        <h2>Home textures that sell well online and in gifting seasons.</h2>
+      </div>
+      <div>
+        <p class="collection-intro-text">
+          Home &amp; living is a strong market when products are organized clearly. This collection is grouped
+          into blankets, rugs, cushions, table decor, storage and wall decor.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Type Filter Chips -->
+  <section class="type-filter-section">
+    <div class="container">
+      <div class="type-filter-wrap">
+        <a href="#blankets" class="type-chip">Blankets</a>
+        <a href="#rugs" class="type-chip">Rugs</a>
+        <a href="#cushions" class="type-chip">Cushions</a>
+        <a href="#table-decor" class="type-chip">Table Decor</a>
+        <a href="#storage" class="type-chip">Storage</a>
+        <a href="#wall-decor" class="type-chip">Wall Decor</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blankets -->
+  <section class="section product-type-section" id="blankets">
+    <div class="container">
+      <div class="type-heading">
+        <div>
+          <p class="eyebrow">Product type</p>
+          <h2>Blankets</h2>
+        </div>
+        <span class="type-count">3 Products</span>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <a href="product.html" class="product-image">Chunky Knit Blanket</a>
+          <div class="product-info">
+            <span class="product-type">Blanket</span>
+            <h3>Chunky Knit Blanket</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <a href="product.html" class="product-image">Wool Throw Blanket</a>
+          <div class="product-info">
+            <span class="product-type">Blanket</span>
+            <h3>Wool Throw Blanket</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <a href="product.html" class="product-image">Merino Knit Blanket</a>
+          <div class="product-info">
+            <span class="product-type">Blanket</span>
+            <h3>Merino Knit Blanket</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rugs -->
+  <section class="section alt-section product-type-section" id="rugs">
+    <div class="container">
+      <div class="type-heading">
+        <div>
+          <p class="eyebrow">Product type</p>
+          <h2>Rugs</h2>
+        </div>
+        <span class="type-count">3 Products</span>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <a href="product.html" class="product-image">Wool Area Rug</a>
+          <div class="product-info">
+            <span class="product-type">Rug</span>
+            <h3>Wool Area Rug</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <a href="product.html" class="product-image">Felt Ball Rug</a>
+          <div class="product-info">
+            <span class="product-type">Rug</span>
+            <h3>Felt Ball Rug</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <a href="product.html" class="product-image">Braided Wool Rug</a>
+          <div class="product-info">
+            <span class="product-type">Rug</span>
+            <h3>Braided Wool Rug</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cushions -->
+  <section class="section product-type-section" id="cushions">
+    <div class="container">
+      <div class="type-heading">
+        <div>
+          <p class="eyebrow">Product type</p>
+          <h2>Cushions</h2>
+        </div>
+        <span class="type-count">3 Products</span>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <a href="product.html" class="product-image">Knit Cushion Cover</a>
+          <div class="product-info">
+            <span class="product-type">Cushion</span>
+            <h3>Knit Cushion Cover</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <a href="product.html" class="product-image">Wool Pillow Cover</a>
+          <div class="product-info">
+            <span class="product-type">Cushion</span>
+            <h3>Wool Pillow Cover</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <a href="product.html" class="product-image">Cable Knit Pillow</a>
+          <div class="product-info">
+            <span class="product-type">Cushion</span>
+            <h3>Cable Knit Pillow</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Table Decor -->
+  <section class="section alt-section product-type-section" id="table-decor">
+    <div class="container">
+      <div class="type-heading">
+        <div>
+          <p class="eyebrow">Product type</p>
+          <h2>Table Decor</h2>
+        </div>
+        <span class="type-count">3 Products</span>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <a href="product.html" class="product-image">Wool Table Runner</a>
+          <div class="product-info">
+            <span class="product-type">Table Decor</span>
+            <h3>Wool Table Runner</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <a href="product.html" class="product-image">Felt Placemats</a>
+          <div class="product-info">
+            <span class="product-type">Table Decor</span>
+            <h3>Felt Placemats</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <a href="product.html" class="product-image">Wool Coasters</a>
+          <div class="product-info">
+            <span class="product-type">Table Decor</span>
+            <h3>Wool Coasters</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Storage -->
+  <section class="section product-type-section" id="storage">
+    <div class="container">
+      <div class="type-heading">
+        <div>
+          <p class="eyebrow">Product type</p>
+          <h2>Storage</h2>
+        </div>
+        <span class="type-count">3 Products</span>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <a href="product.html" class="product-image">Knit Storage Basket</a>
+          <div class="product-info">
+            <span class="product-type">Storage</span>
+            <h3>Knit Storage Basket</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <a href="product.html" class="product-image">Felt Storage Basket</a>
+          <div class="product-info">
+            <span class="product-type">Storage</span>
+            <h3>Felt Storage Basket</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <a href="product.html" class="product-image">Wool Organizer Basket</a>
+          <div class="product-info">
+            <span class="product-type">Storage</span>
+            <h3>Wool Organizer Basket</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wall Decor -->
+  <section class="section alt-section product-type-section" id="wall-decor">
+    <div class="container">
+      <div class="type-heading">
+        <div>
+          <p class="eyebrow">Product type</p>
+          <h2>Wall Decor</h2>
+        </div>
+        <span class="type-count">3 Products</span>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <a href="product.html" class="product-image">Wool Wall Hanging</a>
+          <div class="product-info">
+            <span class="product-type">Wall Decor</span>
+            <h3>Wool Wall Hanging</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <a href="product.html" class="product-image">Macrame Wall Hanging</a>
+          <div class="product-info">
+            <span class="product-type">Wall Decor</span>
+            <h3>Macrame Wall Hanging</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+        <article class="product-card">
+          <a href="product.html" class="product-image">Knit Wall Art</a>
+          <div class="product-info">
+            <span class="product-type">Wall Decor</span>
+            <h3>Knit Wall Art</h3>
+            <p>NPR —</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-logo">SioDha</h3>
+        <p>
+          Handmade knit, wool and hemp products with a premium and cozy shopping experience.
+        </p>
+      </div>
+
+      <div>
+        <h4>Shop</h4>
+        <a href="collection-knitwear.html">Knitwear</a>
+        <a href="collection-bags.html">Bags</a>
+        <a href="collection-accessories.html">Accessories</a>
+        <a href="collection-gifts.html">Gifts</a>
+      </div>
+
+      <div>
+        <h4>Collections</h4>
+        <a href="collection-home-living.html">Home & Living</a>
+        <a href="collection-pet-products.html">Pet Products</a>
+        <a href="collections.html">All Collections</a>
+        <a href="shop.html">Shop All</a>
+      </div>
+
+      <div>
+        <h4>Support</h4>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="#">Shipping</a>
+        <a href="#">Returns</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 SioDha. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

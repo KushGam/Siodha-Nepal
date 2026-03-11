@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SioDha | Handmade Knit, Wool & Hemp</title>
+  <meta
+    name="description"
+    content="Handmade knitwear, wool accessories, hemp bags, gifts, pet products and home decor from Nepal."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    Handmade in Nepal • Knit, Wool & Hemp Collections • Premium Handmade Pieces
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">SioDha</a>
+
+      <nav class="desktop-nav">
+        <a href="index.html" class="active-nav">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="collections.html">Collections</a>
+        <a href="shop.html#best-sellers">Best Sellers</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" aria-label="Search">⌕</button>
+        <button class="icon-btn" aria-label="Account">◯</button>
+        <button class="icon-btn" aria-label="Cart" onclick="window.location.href='cart.html'">👜</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="collections.html">Collections</a>
+      <a href="shop.html#best-sellers">Best Sellers</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-slideshow">
+      <div class="slide active">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Handmade warmth from Nepal</p>
+            <h1>Timeless knit, wool and hemp pieces for everyday beauty.</h1>
+            <p>
+              Discover cozy knitwear, artisan bags, warm home decor, handmade gifts
+              and carefully crafted accessories inspired by natural textures.
+            </p>
+            <div class="hero-buttons">
+              <a href="shop.html" class="btn btn-primary">Shop Collection</a>
+              <a href="shop.html#best-sellers" class="btn btn-outline">Explore Best Sellers</a>
+            </div>
+          </div>
+          <div class="hero-image-card">
+            <div class="hero-photo photo-1">
+              <span>Chunky Knit Sweater Collection</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Natural bags & accessories</p>
+            <h1>Hemp bags and handmade details that feel premium and timeless.</h1>
+            <p>
+              Shop practical, beautiful and handmade bags, pouches and accessories
+              designed for modern everyday use.
+            </p>
+            <div class="hero-buttons">
+              <a href="collection-bags.html" class="btn btn-primary">Shop Bags</a>
+              <a href="collection-accessories.html" class="btn btn-outline">View Accessories</a>
+            </div>
+          </div>
+          <div class="hero-image-card">
+            <div class="hero-photo photo-2">
+              <span>Hemp Tote & Shoulder Bags</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Cozy home & gift pieces</p>
+            <h1>Handmade gifts and home decor crafted with warmth and texture.</h1>
+            <p>
+              From blankets and pillow covers to felt bouquets and gift sets, build a
+              home and gifting experience people remember.
+            </p>
+            <div class="hero-buttons">
+              <a href="collection-home-living.html" class="btn btn-primary">Shop Home & Living</a>
+              <a href="collection-gifts.html" class="btn btn-outline">Browse Gifts</a>
+            </div>
+          </div>
+          <div class="hero-image-card">
+            <div class="hero-photo photo-3">
+              <span>Blankets, Gifts & Decor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-dots">
+        <button class="dot active" data-slide="0"></button>
+        <button class="dot" data-slide="1"></button>
+        <button class="dot" data-slide="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rich Text -->
+  <section class="rich-text-section">
+    <div class="container center-box">
+      <p class="eyebrow">A premium handmade brand</p>
+      <h2>Designed like a modern Shopify store, rooted in craftsmanship.</h2>
+      <p class="rich-text">
+        This brand is built around best-selling knitwear, wool essentials, hemp bags,
+        cute handmade gifts and home pieces that feel cozy, elegant and timeless.
+        Every collection is designed to reflect warmth, slow craftsmanship and a clean shopping experience.
+      </p>
+    </div>
+  </section>
+
+  <!-- Featured Collections -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Featured collections</p>
+        <h2>Shop by your favorite category</h2>
+      </div>
+
+      <div class="collection-grid">
+        <a href="collection-knitwear.html" class="collection-card">
+          <div class="collection-image">🧶</div>
+          <h3>Knitwear</h3>
+          <p>Sweaters, cardigans, beanies, scarves, gloves, socks and headwear.</p>
+          <span class="text-link-inline">Explore Knitwear →</span>
+        </a>
+
+        <a href="collection-bags.html" class="collection-card">
+          <div class="collection-image">👜</div>
+          <h3>Bags</h3>
+          <p>Hemp totes, shoulder bags, crossbody bags, purses and pouches.</p>
+          <span class="text-link-inline">Explore Bags →</span>
+        </a>
+
+        <a href="collection-accessories.html" class="collection-card">
+          <div class="collection-image">✨</div>
+          <h3>Accessories</h3>
+          <p>Scrunchies, keychains, jewelry, charms and phone accessories.</p>
+          <span class="text-link-inline">Explore Accessories →</span>
+        </a>
+
+        <a href="collection-gifts.html" class="collection-card">
+          <div class="collection-image">🎁</div>
+          <h3>Gifts</h3>
+          <p>Gift sets, felt flowers, cute handmade items and decor gifts.</p>
+          <span class="text-link-inline">Explore Gifts →</span>
+        </a>
+
+        <a href="collection-home-living.html" class="collection-card">
+          <div class="collection-image">🏠</div>
+          <h3>Home & Living</h3>
+          <p>Blankets, rugs, cushions, table decor, storage and wall art.</p>
+          <span class="text-link-inline">Explore Home & Living →</span>
+        </a>
+
+        <a href="collection-pet-products.html" class="collection-card">
+          <div class="collection-image">🐾</div>
+          <h3>Pet Products</h3>
+          <p>Knit pet clothing, dog blankets, cat toys and felt pet accessories.</p>
+          <span class="text-link-inline">Explore Pet Products →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Best Sellers -->
+  <section class="section alt-section">
+    <div class="container">
+      <div class="section-head split">
+        <div>
+          <p class="eyebrow">Best sellers</p>
+          <h2>Products that should lead your homepage</h2>
+        </div>
+        <a href="shop.html" class="text-link">View All Products</a>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <a href="product.html" class="product-image">Chunky Knit Sweater</a>
+          <div class="product-info">
+            <span class="product-type">Sweater</span>
+            <h3>Chunky Knit Sweater</h3>
+            <p>NPR 4,850</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a href="product.html" class="product-image">Chunky Knit Cardigan</a>
+          <div class="product-info">
+            <span class="product-type">Cardigan</span>
+            <h3>Chunky Knit Cardigan</h3>
+            <p>NPR 5,450</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a href="product.html" class="product-image">Classic Wool Beanie</a>
+          <div class="product-info">
+            <span class="product-type">Beanie</span>
+            <h3>Classic Wool Beanie</h3>
+            <p>NPR 1,650</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a href="product.html" class="product-image">Chunky Knit Scarf</a>
+          <div class="product-info">
+            <span class="product-type">Scarf</span>
+            <h3>Chunky Knit Scarf</h3>
+            <p>NPR 2,350</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a href="product.html" class="product-image">Hemp Tote Bag</a>
+          <div class="product-info">
+            <span class="product-type">Tote Bag</span>
+            <h3>Hemp Tote Bag</h3>
+            <p>NPR 2,450</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a href="product.html" class="product-image">Wool Phone Sleeve</a>
+          <div class="product-info">
+            <span class="product-type">Phone Accessory</span>
+            <h3>Wool Phone Sleeve</h3>
+            <p>NPR 1,250</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a href="product.html" class="product-image">Beanie + Scarf Set</a>
+          <div class="product-info">
+            <span class="product-type">Gift Set</span>
+            <h3>Beanie + Scarf Set</h3>
+            <p>NPR 3,950</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a href="product.html" class="product-image">Chunky Knit Blanket</a>
+          <div class="product-info">
+            <span class="product-type">Blanket</span>
+            <h3>Chunky Knit Blanket</h3>
+            <p>NPR 6,850</p>
+            <button>Add to Cart</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rich Text 2 -->
+  <section class="rich-text-section soft-bg">
+    <div class="container center-box narrow">
+      <p class="eyebrow">Why this homepage works</p>
+      <h2>It shows products early, builds trust, and keeps the design clean.</h2>
+      <p class="rich-text">
+        Visitors first see your hero section, then your best collections, then strong product picks.
+        That is exactly how a good Shopify-style homepage should guide people toward purchase.
+      </p>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="section alt-section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Stay in the loop</p>
+        <h2>Be the first to know about new drops and seasonal collections</h2>
+      </div>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" name="email" placeholder="Enter your email" required />
+        <button type="submit" class="btn btn-primary">Join Newsletter</button>
+        <p class="newsletter-note">No spam, just warm updates from Nepal.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Trust / Logos -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Why trust us</p>
+        <h2>Built on quality, warmth and handmade value</h2>
+      </div>
+
+      <div class="trust-grid">
+        <div class="trust-card">
+          <div class="trust-icon">✓</div>
+          <h3>Handmade Craftsmanship</h3>
+          <p>Carefully made pieces with artisan attention to detail.</p>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-icon">✦</div>
+          <h3>Natural Materials</h3>
+          <p>Thoughtful use of knit, wool and hemp across collections.</p>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-icon">♡</div>
+          <h3>Gift-Worthy Design</h3>
+          <p>Beautiful, cozy and memorable products people love to give.</p>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-icon">✧</div>
+          <h3>Designed for Modern Shopping</h3>
+          <p>Clean premium website design inspired by top Shopify stores.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-logo">SioDha</h3>
+        <p>
+          Handmade knit, wool and hemp products with a premium and cozy shopping experience.
+        </p>
+      </div>
+
+      <div>
+        <h4>Shop</h4>
+        <a href="collection-knitwear.html">Knitwear</a>
+        <a href="collection-bags.html">Bags</a>
+        <a href="collection-accessories.html">Accessories</a>
+        <a href="collection-gifts.html">Gifts</a>
+      </div>
+
+      <div>
+        <h4>Collections</h4>
+        <a href="collection-home-living.html">Home & Living</a>
+        <a href="collection-pet-products.html">Pet Products</a>
+        <a href="collections.html">All Collections</a>
+        <a href="shop.html">Shop All</a>
+      </div>
+
+      <div>
+        <h4>Support</h4>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="#">Shipping</a>
+        <a href="#">Returns</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 SioDha. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

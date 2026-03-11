@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart | SioDha</title>
+  <meta
+    name="description"
+    content="Cart page template for SioDha – review items, update quantities and proceed to checkout."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    Handmade in Nepal • Knit, Wool & Hemp Collections • Premium Handmade Pieces
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">SioDha</a>
+
+      <nav class="desktop-nav">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="collections.html">Collections</a>
+        <a href="shop.html#best-sellers">Best Sellers</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" aria-label="Search">⌕</button>
+        <button class="icon-btn" aria-label="Account">◯</button>
+        <button class="icon-btn" aria-label="Cart" onclick="window.location.href='cart.html'">👜</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="collections.html">Collections</a>
+      <a href="shop.html#best-sellers">Best Sellers</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container page-hero-inner">
+      <p class="eyebrow">Your cart</p>
+      <h1>Review your items before checkout.</h1>
+      <p class="page-hero-text">
+        This template is ready for basic cart layout – subtotal, quantity updates and a clear
+        path to checkout. Cart functionality can be wired up later or connected to Shopify.
+      </p>
+    </div>
+  </section>
+
+  <!-- Cart Layout -->
+  <section class="section">
+    <div class="container cart-grid">
+      <div class="cart-items">
+        <div class="cart-item">
+          <div class="cart-item-info">
+            <h3>Chunky Knit Sweater</h3>
+            <p class="cart-item-meta">Sweater • NPR 4,850</p>
+            <button class="cart-remove">Remove</button>
+          </div>
+          <div class="cart-item-qty">
+            <input type="number" value="1" min="1" />
+          </div>
+          <div class="cart-item-total">NPR 4,850</div>
+        </div>
+      </div>
+
+      <aside class="cart-summary">
+        <h2>Order summary</h2>
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <span>NPR 4,850</span>
+        </div>
+        <p class="shipping-note">Shipping and taxes calculated at checkout.</p>
+        <button class="btn btn-primary full-width">Proceed to Checkout</button>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-logo">SioDha</h3>
+        <p>
+          Handmade knit, wool and hemp products with a premium and cozy shopping experience.
+        </p>
+      </div>
+
+      <div>
+        <h4>Shop</h4>
+        <a href="collection-knitwear.html">Knitwear</a>
+        <a href="collection-bags.html">Bags</a>
+        <a href="collection-accessories.html">Accessories</a>
+        <a href="collection-gifts.html">Gifts</a>
+      </div>
+
+      <div>
+        <h4>Collections</h4>
+        <a href="collection-home-living.html">Home & Living</a>
+        <a href="collection-pet-products.html">Pet Products</a>
+        <a href="collections.html">All Collections</a>
+        <a href="shop.html">Shop All</a>
+      </div>
+
+      <div>
+        <h4>Support</h4>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="#">Shipping</a>
+        <a href="#">Returns</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 SioDha. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
